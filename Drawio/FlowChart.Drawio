@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="SI7tuCP2dQLLvXjDpIHG" name="Page-1">
-        <mxGraphModel dx="1374" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="594" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="328" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="327">
+                <mxCell id="328" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="327" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -43,12 +43,6 @@
                 <mxCell id="311" value="biggest_num =&lt;br&gt;check" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="364" y="-540" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="315" value="" style="edgeStyle=none;html=1;" parent="1" source="313" target="284" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="313" value="biggest_num = random_number[0]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="357" y="-960" width="136" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="321" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="316" target="311" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -76,11 +70,17 @@
                 <mxCell id="323" value="return&lt;br&gt;biggest_num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="-470" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="329" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="327" target="313">
+                <mxCell id="331" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="327" target="330">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="327" value="Get &lt;br&gt;random_number[0]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="327" value="Get &lt;br&gt;random_number[0]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="357" y="-1040" width="136" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="330" target="284">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="&lt;span&gt;biggest_num = random_number[0]&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="364" y="-950" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
